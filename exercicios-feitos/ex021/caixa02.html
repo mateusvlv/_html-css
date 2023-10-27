@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding-left: 10px;
+            padding-bottom: 10px;
+        }
+        nav{
+            padding: 10px;
+            background-color: gray;           
+            /*width: fit-content;*/
+            box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.447);
+            margin-right: 10px;           
+        }
+        nav > a {
+            background-color: gray;
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+        }
+        a:hover {
+            background-color: lightgray;
+            color: black;
+        }        
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 2px 3px 6px 5px rgba(0,0,0,0.5);
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            margin: 15px;
+        }
+        article > aside {
+            background-color: gray;
+            margin: -10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: -8px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 60px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>News</h1>
+        <nav>
+            <a href="#">Brasil</a>
+            <a href="#">MG</a>
+            <a href="#">BD</a>
+            <a href="#">Esportes</a>
+            <a href="#">Tecnologia</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">            
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum amet magnam neque pariatur aliquid quis temporibus rerum corrupti libero. Incidunt impedit minus accusamus recusandae corporis, eos autem laborum et nulla.</p>
+            </article>
+            <article>
+                <h2>Notícias de BD</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, pariatur expedita. Totam quasi culpa ex a dicta architecto aliquid consectetur repudiandae dolorem optio laudantium quibusdam, ullam earum labore dignissimos mollitia?</p>
+                <aside>
+                    <p>Artigo escrito por João Domingues</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVídeo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

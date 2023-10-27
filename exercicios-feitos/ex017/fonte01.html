@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1;900&display=swap');
+        body{
+            /*SAFE COMBINATION*/
+            font-family: 'Work Sans', sans-serif;
+
+            /*lighter normal bold bolder*/
+            /*font-weight: bolder;
+            font-size: 1em;
+            font-style: italic;*/
+
+        }
+
+        p{
+            /*SHORTHAND
+            font-style -> font-weight -> font-size -> font-family*/
+            font: italic bold 2em 'Work Sans', sans-serif;
+        
+        }
+
+
+        h1, h2{
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+    </style>
+</head>
+<body>
+    <H1>Trabalhando com fontes</H1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, atque possimus at assumenda ducimus itaque recusandae laborum! Veniam nihil quidem reprehenderit odit pariatur, repellendus, quae, suscipit laborum accusamus voluptatem consequatur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque impedit iusto accusamus blanditiis officiis possimus totam illo. Praesentium, quis numquam? Molestias, asperiores! Quibusdam nemo maiores ullam porro voluptate aperiam veniam.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos itaque laudantium doloribus necessitatibus voluptatum distinctio, inventore sequi quisquam asperiores deleniti beatae quo quidem laborum commodi dolorem laboriosam sapiente neque molestias?</p>
+</body>
+</html>

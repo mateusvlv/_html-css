@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: cadetblue;
+    height: 50px;
+    color: hsl(182, 25%, 20%);
+}
+nav{
+    background-color:cadetblue;
+    height: 30px;
+    position: relative;
+}
+nav > ul{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;    
+    color: hsl(182, 25%, 20%);
+    background-color: cadetblue;
+    padding: 5px;
+    text-align: left;
+}
+nav > ul > ul{    
+    display: none;/*É NONE*/
+    padding: 5px;
+    font-size: 0.9vw;    
+}
+nav > ul:hover ul{
+    display: block;
+}
+nav > ul > span{
+    padding: 5px;
+}
+nav > ul > span:hover{
+    cursor: context-menu;
+    background-color: bisque;
+    border-radius: 5px 5px 0px 0px;
+    transition: 200ms;
+}
+nav > ul > ul > span.nome-cap{
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+nav > ul > ul > span.nome-cap:hover{
+    background-color: bisque;
+    transition: 300ms;
+    cursor: context-menu;
+}
+nav > ul > ul > a > li{
+    display: none;
+}
+nav > ul > ul:hover a > li{
+    display: inline-block;
+    width: fit-content;
+}
+nav > ul > ul > a{
+    text-decoration: none;
+    color: hsl(182, 25%, 20%);
+    padding: 5px;
+    border-radius: 10px;
+}
+nav > ul > ul > a:hover{
+    background-color: bisque;
+    transition: 250ms;
+}
+
+main{
+    background-color:lightskyblue;
+    z-index: -1;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.2vw;
+}
+h2{
+    text-align: right;
+    font-size: 1.5vw;
+}
+#video > iframe, #setas, #atualizacao{
+    width: 65%;
+    margin: auto; 
+}
+#video > iframe{
+    display: block;
+    min-width: 300px;
+    height: 35vw;
+    min-height: auto; 
+}
+#setas {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+#setas span{
+    display: inline-block;
+    width: 20vw;
+}
+#setas a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+#setas a:hover{
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+#atualizacao{
+    text-align: center;
+    background-color: bisque;
+    padding: 10px 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+main input[type="submit"]{
+    border: 2px solid hsl(182, 25%, 40%);
+    background-color: cadetblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1vw;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 20%;
+}
+main input[type="submit"]:hover{
+    background-color: hsl(182, 25%, 75%);
+    cursor: pointer;
+}
+footer{
+    background-color: cadetblue;
+    padding-top: 25px;
+    min-height: 7.0vh;
+    max-height: 7.9vh;
+    text-align: center;
+}

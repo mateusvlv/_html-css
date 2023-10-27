@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.block{
+    display: inline-block;
+    position: relative;
+}
+
+label{
+    display: block;
+    width: fit-content;
+    background-color: rgb(222, 196, 255);
+    border-radius: 5px;
+    padding: 5px; 
+}
+
+
+iframe {
+    height: 350px;
+    width: 980px;
+    outline: 1px solid rgb(120, 29, 159);
+    border-radius: 50PX;
+}
+
+
+
+p.a a{
+    width: 90px;
+    background-color: #912956ac;
+    font-size: 1em;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}

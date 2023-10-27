@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --cor0: #055405;
+    --cor1: #219121;
+    --cor2: #042304;
+    --cor4: #D1E88C;
+    --cor5: #93EBAE;
+    --cor6: #61DB61;
+    --cor7: #FFFFFF;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Idroid', cursive;
+    --fonte-menu: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    --fonte-artigos: 'Roboto', sans-serif;
+}
+
+/*
+CORES
+#055405 até #27AE27 - FUNDO GRADIENTE CABEÇALHO
+#042304 até #055405 - FUNDO GRADIENTE NAVEGAÇÃO
+#D1E88C - FUNDO DO BODY (CLARO)
+#93EBAE - FUNDO DO ARTIGO DO ASIDE
+#055405 - FUNDO DO RODAPÉ, FUNDO DA DIV-FRAME, TEXTO DOS LINKS DENTRO DA MAIN, TEXTO DE DESTAQUE NOS ARTIGOS, 
+TEXTO DO H1 E H2 NA MAIN
+*/
+
+body{
+    background-color: var(--cor4);
+    font-family: var(--fonte-padrao);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor0), var(--cor1));
+    margin: 0px;
+    min-height: 150px;
+}
+header > h1{
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    color: var(--cor7);
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 1px 2px 0px rgba(0,0,0,0.5);
+}
+header > p {
+    margin: auto;
+    text-align: center;
+    color: var(--cor7);
+    max-width: 90%;
+    padding-top: 20px;
+    text-shadow: 1px 2px 0px rgba(0,0,0,0.4);
+}
+nav {
+    background-image: linear-gradient(to top, var(--cor2), var(--cor0));
+    padding: 7px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+}
+nav > a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-menu);
+    font-weight: normal;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+nav > a:hover{
+    background-color: var(--cor6);
+    color: var(--cor2);
+    transition-duration: 500ms;
+}
+header ul{
+    margin: 0px;
+    list-style: none;
+}
+main{
+    font-family: var(--fonte-artigos);
+    font-size: 1em;
+    text-align: justify;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.28);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: min-content;
+    min-width: 55%;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: var(--cor7);
+    padding: 20px;
+}
+main > section > article > h1, main  > section > article > h2{
+    padding: 1px 5px;
+    font-family: var(--fonte-android);
+    color: var(--cor0);
+}
+main > section > article > h1{
+    font-size: 1.5em;
+}
+main > section > article > p, main > aside > article > p, main > aside > aside > p {
+    padding: 15px 0px;
+    line-height: 1.5em;
+    font-size: 1.0em;
+}
+main > section > article > h2{
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+}
+.dest-txt {
+    font-weight: bold;
+    color: var(--cor0);
+}
+main a{
+    text-decoration: none;
+    color: var(--cor0);
+    font-weight: bold;
+    padding: 0px 5px;
+}
+article > p > a::after{
+    content: " \01f517";
+}
+main a:hover{
+    background-color: var(--cor5);
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+img#img-inspiracao-logo{
+    max-width: 250px;
+}
+article > p, aside > p{
+    text-indent: 30px;
+}
+
+div#frame-video{
+    width: 105.14%;
+    min-height: 250px;
+    height: fit-content;    
+    margin-left: -1.395vw;
+    margin: 0px -20px;
+    /*padding: 20px;*/
+    background-color: var(--cor0);
+}
+iframe {
+    display: block;
+    margin: auto;
+    padding: 4% 4%;
+    width: 80%;
+    height: 50vh;
+}
+aside h3{
+    margin: -10px -15px 0px -15px;
+    padding: 5px 0px 5px 10px;
+    border-radius: 10px 10px 2px 2px;
+    background-color: var(--cor0);
+    color: var(--cor7);
+}
+main > aside > article{
+    width: 95%;
+    background-color: var(--cor5);
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 15px 15px 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    margin: 10px auto;
+}
+aside ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+aside li{
+    font-size: min(1.7vw, 17px);
+}
+footer{
+    background-color: var(--cor0);
+    text-align: center;
+    height: 40px;
+}
+footer > p{
+    padding: 10px;
+    color: var(--cor7);
+}
+footer > p > a{
+    text-decoration: none;
+    color: var(--cor7);
+    font-weight: bold;    
+}
+
