@@ -6,8 +6,8 @@ Estou aprendendo a criar sites.
 
 ### **Exercícios:**
 
-<a href="./exercicios-feitos/ex001/index.html">Ex001  </a>
-<a href="./exercicios-feitos/ex002/index.html">Ex002  </a>
+<a href="./exercicios-feitos/ex001/index.html">Ex001</a>
+<a href="./exercicios-feitos/ex002/index.html">Ex002</a>
 <a href="./exercicios-feitos/ex003/index.html">Ex003  </a>
 <a href="./exercicios-feitos/ex004/index.html">Ex004  </a>
 <a href="./exercicios-feitos/ex006/index.html">Ex006  </a>
