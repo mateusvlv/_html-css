@@ -3,7 +3,9 @@
 Estou aprendendo a criar sites.
 
 ## **Módulo 1**
+
 ### **Exercícios:**
+
 <a href="./exercicios-feitos/ex001/index.html">Ex001</a><br>
 <a href="./exercicios-feitos/ex002/index.html">Ex002</a><br>
 <a href="./exercicios-feitos/ex003/index.html">Ex003</a><br>
@@ -31,7 +33,9 @@ Estou aprendendo a criar sites.
 <a href="./desafios-feitos/d009/index.html">Des009</a><br>
 
 ## **Módulo 2**
+
 ### **Exercícios:**
+
 <a href="./exercicios-feitos/ex016/index.html">Ex016</a><br>
 <a href="./exercicios-feitos/ex017/index.html">Ex017</a><br>
 <a href="./exercicios-feitos/ex018/index.html">Ex018</a><br>
@@ -40,6 +44,7 @@ Estou aprendendo a criar sites.
 
 
 ### **Desafios:**
+
 <a href="./desafios-feitos/d010/index.html">Des010</a><br>
 
 ## **Módulo 3**
